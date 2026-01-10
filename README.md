@@ -1,4 +1,4 @@
-<h1 align="center">🛒 oneCart</h1>
+<h1 align="center"> oneCart</h1>
 
 <h3 align="center">
 Full-Stack Web Application
