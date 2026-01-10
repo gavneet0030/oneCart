@@ -1,264 +1,223 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <title>OneCart | Project Documentation</title>
-</head>
+<h1 align="center">🛒 oneCart</h1>
 
-<body style="
-  margin:0;
-  padding:0;
-  background:linear-gradient(135deg,#f5f6fa,#eef2f7);
-  font-family:'Segoe UI', Arial, sans-serif;
-  color:#2c3e50;
-">
+<h3 align="center">
+Full-Stack Web Application
+</h3>
 
-<!-- ================= MAIN CONTAINER ================= -->
-<div style="
-  max-width:1100px;
-  margin:60px auto;
-  background:#ffffff;
-  padding:60px;
-  border-radius:14px;
-  box-shadow:0 25px 60px rgba(0,0,0,0.08);
-  text-align:center;
-">
-
-<!-- ================= TITLE ================= -->
-<h1 style="
-  font-size:3.4em;
-  margin-bottom:10px;
-  letter-spacing:1px;
-">
-  🛒 OneCart
-</h1>
-
-<p style="
-  font-size:1.15em;
-  max-width:900px;
-  margin:20px auto 35px;
-  color:#34495e;
-">
-  OneCart is a <strong>full-stack, database-driven online e-commerce web application</strong>
-  designed to simulate real-world digital shopping systems with secure authentication,
-  product management, cart processing, and complete order lifecycle control.
+<p align="center">
+  <b>Frontend • Backend • Real-World Architecture</b>
 </p>
 
-<!-- ================= BADGES ================= -->
-<div style="
-  display:flex;
-  flex-wrap:wrap;
-  justify-content:center;
-  gap:12px;
-  margin-bottom:35px;
-">
-
-<span style="background:#1e3799;color:#fff;padding:9px 20px;border-radius:30px;font-size:0.85em;">
-  🔧 Full-Stack Architecture
-</span>
-
-<span style="background:#38ada9;color:#fff;padding:9px 20px;border-radius:30px;font-size:0.85em;">
-  🛍️ E-Commerce Platform
-</span>
-
-<span style="background:#e55039;color:#fff;padding:9px 20px;border-radius:30px;font-size:0.85em;">
-  🔗 RESTful API Design
-</span>
-
-<span style="background:#6a89cc;color:#fff;padding:9px 20px;border-radius:30px;font-size:0.85em;">
-  🔐 JWT Authentication
-</span>
-
-<span style="background:#079992;color:#fff;padding:9px 20px;border-radius:30px;font-size:0.85em;">
-  🧑‍💼 Role-Based Access Control
-</span>
-
-<span style="background:#b71540;color:#fff;padding:9px 20px;border-radius:30px;font-size:0.85em;">
-  🎓 Academic & Industry Aligned
-</span>
-
-<span style="background:#2f3640;color:#fff;padding:9px 20px;border-radius:30px;font-size:0.85em;">
-  ⚙️ Scalable & Modular Design
-</span>
-
-</div>
-
-<p style="font-size:0.95em;">
-  <strong>📌 Project Category:</strong> Web Development & Software Engineering<br>
-  <strong>🧩 Application Type:</strong> Client–Server Based Online Shopping System
+<p align="center">
+  <img src="https://img.shields.io/badge/Project-Full%20Stack-blue?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/Architecture-Layered-green?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/Engineering-Production%20Oriented-orange?style=for-the-badge"/>
 </p>
 
-<hr style="margin:50px 0;">
-
-<!-- ================= PURPOSE ================= -->
-<h2 style="font-size:2.4em;">🎯 Purpose</h2>
-
-<p style="max-width:900px;margin:25px auto;">
-  The primary purpose of OneCart is to design, develop, and demonstrate a complete
-  online e-commerce web application that closely reflects the functionality,
-  architecture, and workflow of real-world digital shopping platforms.
-  The project serves as both an <strong>academic learning model</strong> and a
-  <strong>practical industry-oriented solution</strong>.
+<p align="center">
+  <img src="https://img.shields.io/github/stars/gavneet0030/oneCart?style=for-the-badge"/>
+  <img src="https://img.shields.io/github/forks/gavneet0030/oneCart?style=for-the-badge"/>
+  <img src="https://img.shields.io/github/repo-size/gavneet0030/oneCart?style=for-the-badge"/>
+  <img src="https://img.shields.io/github/last-commit/gavneet0030/oneCart?style=for-the-badge"/>
 </p>
 
-<p style="max-width:900px;margin:20px auto;">
-  OneCart aims to provide a structured understanding of how modern web applications
-  handle user authentication, product catalog management, shopping cart operations,
-  order processing, and administrative control through a secure and scalable
-  client–server architecture.
+<p align="center">
+  <i>Designing and understanding real-world full-stack application flow.</i>
 </p>
 
-<!-- Purpose Cards -->
-<div style="
-  display:grid;
-  grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
-  gap:25px;
-  margin-top:35px;
-">
+<hr/>
 
-<div style="background:#f8f9fd;padding:25px;border-radius:12px;">
-  <h3>📘 Educational Purpose</h3>
-  <ul style="list-style-position:inside;">
-    <li>Understand full-stack development using layered architecture</li>
-    <li>Apply software engineering concepts in a real project</li>
-    <li>Implement secure authentication and authorization</li>
-    <li>Practice RESTful API and database integration</li>
-  </ul>
-</div>
+<h2 align="center">🎯 Purpose of This Repository</h2>
 
-<div style="background:#f8f9fd;padding:25px;border-radius:12px;">
-  <h3>🛠️ Practical & Technical Purpose</h3>
-  <ul style="list-style-position:inside;">
-    <li>Build a scalable and modular e-commerce system</li>
-    <li>Separate frontend, backend, and database layers</li>
-    <li>Manage real-time user interaction and persistence</li>
-    <li>Support role-based access for users and admins</li>
-  </ul>
-</div>
-
-<div style="background:#f8f9fd;padding:25px;border-radius:12px;">
-  <h3>🧩 System-Oriented Purpose</h3>
-  <ul style="list-style-position:inside;">
-    <li>Ensure secure data flow</li>
-    <li>Maintain cart and order lifecycle consistency</li>
-    <li>Enable full administrative control</li>
-    <li>Simulate real-world shopping workflows</li>
-  </ul>
-</div>
-
-</div>
-
-<p style="max-width:900px;margin:35px auto;">
-  Overall, OneCart is not only a functional e-commerce platform but also a
-  <strong>well-documented, maintainable, and extensible system</strong> that can
-  be enhanced with advanced features such as online payments, analytics,
-  notifications, and cloud deployment.
+<p align="center">
+  This repository contains <b>oneCart</b>, a full-stack web application built to
+  understand and practice <b>end-to-end software development</b>.
 </p>
 
-<hr style="margin:60px 0;">
-
-<!-- ================= PROJECT OVERVIEW ================= -->
-<h2 style="font-size:2.4em;">📦 Project Overview</h2>
-
-<p style="max-width:900px;margin:25px auto;">
-  OneCart is a comprehensive full-stack online e-commerce web application that
-  enables users to browse products, manage a shopping cart, place orders, and
-  track purchase history through a secure and interactive user interface.
+<p align="center">
+  Unlike isolated scripts or demos, this project focuses on how
+  <b>frontend and backend layers communicate</b>, how data flows through the system,
+  and how real-world applications are structured.
 </p>
 
-<p style="max-width:900px;margin:20px auto;">
-  The application is divided into three major components:
-  <strong>Frontend UI</strong>, <strong>Backend API Server</strong>, and
-  <strong>Database Layer</strong>. These components communicate via RESTful APIs,
-  ensuring clear separation of concerns and easy maintenance.
+<p align="center">
+  The primary goal is to strengthen <b>system thinking</b>,
+  <b>clean architecture</b>, and <b>scalable design principles</b>.
 </p>
 
-<!-- Overview Lists -->
-<div style="
-  display:grid;
-  grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
-  gap:30px;
-  margin-top:40px;
-">
+<hr/>
 
-<div>
-  <h3>👤 User Capabilities</h3>
-  <ul style="list-style-position:inside;">
-    <li>Secure account creation and login</li>
-    <li>Product browsing with details</li>
-    <li>Cart management</li>
-    <li>Order placement & tracking</li>
-    <li>Profile management</li>
-  </ul>
-</div>
+<h2 align="center">📂 Project Overview</h2>
 
-<div>
-  <h3>🧑‍💼 Admin Capabilities</h3>
-  <ul style="list-style-position:inside;">
-    <li>Admin authentication</li>
-    <li>Product CRUD operations</li>
-    <li>Inventory management</li>
-    <li>Order status updates</li>
-  </ul>
-</div>
+<p align="center">
+  <b>oneCart</b> is organized as a <b>layered full-stack application</b>.
+</p>
 
-<div>
-  <h3>🏗️ Architectural Overview</h3>
-  <ul style="list-style-position:inside;">
-    <li>Client–server architecture</li>
-    <li>RESTful communication</li>
-    <li>Role-based access</li>
-    <li>Centralized database</li>
-    <li>Modular & extensible design</li>
-  </ul>
-</div>
+<p align="center">
+  The repository is divided into two main components:
+</p>
 
-</div>
+<p align="center">
+  • <b>frontend/</b> – Handles user interface, client-side logic, and user interaction<br/>
+  • <b>backend/</b> – Handles server-side logic, request handling, and business rules
+</p>
 
-<hr style="margin:60px 0;">
+<p align="center">
+  This separation follows <b>industry best practices</b> and allows independent
+  development, testing, and scaling of each layer.
+</p>
 
-<!-- ================= TECHNOLOGY STACK ================= -->
-<h2 style="font-size:2.4em;">🧰 Technology Stack</h2>
+<hr/>
 
-<div style="
-  display:grid;
-  grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
-  gap:25px;
-  margin-top:35px;
-">
+<h2 align="center">🧠 Core Software Engineering Concepts</h2>
 
-<div style="background:#f8f9fd;padding:25px;border-radius:12px;">
-  <h3>🎨 Frontend</h3>
-  <ul style="list-style-position:inside;">
-    <li><strong>HTML5</strong></li>
-    <li><strong>CSS3</strong></li>
-    <li><strong>JavaScript</strong></li>
-    <li><strong>React</strong></li>
-  </ul>
-</div>
+<p align="center">
+  The project emphasizes the following concepts:
+</p>
 
-<div style="background:#f8f9fd;padding:25px;border-radius:12px;">
-  <h3>⚙️ Backend</h3>
-  <ul style="list-style-position:inside;">
-    <li><strong>Node.js</strong></li>
-    <li><strong>Express.js</strong></li>
-    <li><strong>JWT Authentication</strong></li>
-  </ul>
-</div>
+<p align="center">
+  ✔ Separation of concerns (UI vs Server Logic)<br/>
+  ✔ Modular and maintainable folder structure<br/>
+  ✔ Clear request–response lifecycle<br/>
+  ✔ Scalable and extensible design<br/>
+  ✔ Real-world full-stack workflow
+</p>
 
-<div style="background:#f8f9fd;padding:25px;border-radius:12px;">
-  <h3>🗄️ Database & Tools</h3>
-  <ul style="list-style-position:inside;">
-    <li><strong>MongoDB</strong></li>
-    <li><strong>Mongoose</strong></li>
-    <li>Git & GitHub</li>
-    <li>Postman</li>
-    <li>VS Code</li>
-  </ul>
-</div>
+<p align="center">
+  These principles ensure the application remains easy to debug,
+  understand, and extend as complexity grows.
+</p>
 
-</div>
+<hr/>
 
-</div>
-</body>
-</html>
+<h2 align="center">🛠️ Technology Stack</h2>
+
+<p align="center">
+  The project uses a <b>minimal yet practical stack</b> to focus on fundamentals.
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Frontend-Web%20Technologies-blue?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/Backend-Server%20Side-orange?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/Version%20Control-Git%20%26%20GitHub-black?style=for-the-badge"/>
+</p>
+
+<p align="center">
+  Each layer is intentionally kept independent to support future
+  upgrades such as database integration, authentication, and deployment.
+</p>
+
+<hr/>
+
+<h2 align="center">🧠 System Architecture & Flowchart</h2>
+
+<p align="center">
+  The flowchart below illustrates the <b>complete execution flow</b>
+  of the oneCart application.
+</p>
+
+<p align="center">
+  It explains how a user request travels from the <b>frontend</b>
+  to the <b>backend</b>, how logic is processed, and how the response
+  is returned to the client.
+</p>
+
+<p align="center">
+  <img src="flowcharts/onecart-flowchart.png" width="85%" />
+</p>
+
+<p align="center">
+  <i>
+    The flowchart demonstrates initialization, request handling,
+    decision-making, processing, and response generation.
+  </i>
+</p>
+
+<hr/>
+
+<h2 align="center">🔁 Application Flow Explanation</h2>
+
+<p align="center">
+  1. User interacts with the frontend interface<br/>
+  2. Frontend sends a request to the backend<br/>
+  3. Backend processes the request using application logic<br/>
+  4. Data is validated and transformed if required<br/>
+  5. Backend sends a response back to the frontend<br/>
+  6. Frontend updates the UI based on the response
+</p>
+
+<p align="center">
+  This flow ensures <b>clear responsibility boundaries</b>
+  and predictable application behavior.
+</p>
+
+<hr/>
+
+<h2 align="center">🚀 How to Run the Project</h2>
+
+<p align="center">
+  Clone the repository:
+</p>
+
+<p align="center">
+  <code>git clone https://github.com/gavneet0030/oneCart.git</code>
+</p>
+
+<br/>
+
+<p align="center">
+  Navigate into the project directory:
+</p>
+
+<p align="center">
+  <code>cd oneCart</code>
+</p>
+
+<br/>
+
+<p align="center">
+  Run the frontend and backend independently
+  using the instructions provided inside each folder.
+</p>
+
+<p align="center">
+  This design allows isolated testing and easier debugging.
+</p>
+
+<hr/>
+
+<h2 align="center">📈 Learning Outcomes</h2>
+
+<p align="center">
+  Through this project, the following skills are strengthened:
+</p>
+
+<p align="center">
+  ✔ Full-stack application architecture<br/>
+  ✔ Request–response lifecycle understanding<br/>
+  ✔ System-level thinking<br/>
+  ✔ Real-world project structuring<br/>
+  ✔ Scalable software design
+</p>
+
+<hr/>
+
+<h2 align="center">🔮 Future Enhancements</h2>
+
+<p align="center">
+  Planned improvements include:
+</p>
+
+<p align="center">
+  • Database integration<br/>
+  • Authentication and authorization<br/>
+  • API optimization<br/>
+  • Cloud deployment<br/>
+  • CI/CD pipeline integration
+</p>
+
+<hr/>
+
+<p align="center">
+  💡 <i>Built to understand and apply real-world full-stack software engineering principles.</i>
+</p>
