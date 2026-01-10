@@ -5,13 +5,13 @@ Full-Stack Web Application
 </h3>
 
 <p align="center">
-  <b>Frontend • Backend • Real-World Architecture</b>
+  <b>Frontend • Backend • System Design • Real-World Architecture</b>
 </p>
 
 <p align="center">
   <img src="https://img.shields.io/badge/Project-Full%20Stack-blue?style=for-the-badge"/>
   <img src="https://img.shields.io/badge/Architecture-Layered-green?style=for-the-badge"/>
-  <img src="https://img.shields.io/badge/Engineering-Production%20Oriented-orange?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/Engineering-System%20Thinking-orange?style=for-the-badge"/>
 </p>
 
 <p align="center">
@@ -22,7 +22,7 @@ Full-Stack Web Application
 </p>
 
 <p align="center">
-  <i>Designing and understanding real-world full-stack application flow.</i>
+  <i>Understanding how real-world full-stack applications are designed, built, and executed.</i>
 </p>
 
 <hr/>
@@ -30,19 +30,29 @@ Full-Stack Web Application
 <h2 align="center">🎯 Purpose of This Repository</h2>
 
 <p align="center">
-  This repository contains <b>oneCart</b>, a full-stack web application built to
-  understand and practice <b>end-to-end software development</b>.
+  <b>oneCart</b> was created to move beyond isolated scripts and mini-projects
+  and into the world of <b>real-world, system-level application development</b>.
 </p>
 
 <p align="center">
-  Unlike isolated scripts or demos, this project focuses on how
-  <b>frontend and backend layers communicate</b>, how data flows through the system,
-  and how real-world applications are structured.
+  The primary goal of this project is to understand <b>how complete applications are built</b>,
+  not just how individual features work in isolation.
 </p>
 
 <p align="center">
-  The primary goal is to strengthen <b>system thinking</b>,
-  <b>clean architecture</b>, and <b>scalable design principles</b>.
+  This repository focuses on:
+</p>
+
+<p align="center">
+  ✔ How frontend and backend responsibilities are separated<br/>
+  ✔ How user actions translate into backend requests<br/>
+  ✔ How data flows through different layers of the system<br/>
+  ✔ How scalable and maintainable project structures are designed
+</p>
+
+<p align="center">
+  It reflects a transition from <b>beginner-level coding</b> to
+  <b>intermediate-level software engineering and system thinking</b>.
 </p>
 
 <hr/>
@@ -50,61 +60,86 @@ Full-Stack Web Application
 <h2 align="center">📂 Project Overview</h2>
 
 <p align="center">
-  <b>oneCart</b> is organized as a <b>layered full-stack application</b>.
+  <b>oneCart</b> is structured as a <b>layered full-stack application</b>.
 </p>
 
 <p align="center">
-  The repository is divided into two main components:
+  Instead of placing all logic in a single place, the project is divided
+  into clearly defined layers, each with a specific responsibility.
 </p>
 
 <p align="center">
-  • <b>frontend/</b> – Handles user interface, client-side logic, and user interaction<br/>
-  • <b>backend/</b> – Handles server-side logic, request handling, and business rules
+  The repository contains:
 </p>
 
 <p align="center">
-  This separation follows <b>industry best practices</b> and allows independent
-  development, testing, and scaling of each layer.
-</p>
-
-<hr/>
-
-<h2 align="center">🧠 Core Software Engineering Concepts</h2>
-
-<p align="center">
-  The project emphasizes the following concepts:
+  • <b>frontend/</b> – Responsible for user interface, user interaction, and client-side logic<br/>
+  • <b>backend/</b> – Responsible for request handling, application logic, and data processing
 </p>
 
 <p align="center">
-  ✔ Separation of concerns (UI vs Server Logic)<br/>
-  ✔ Modular and maintainable folder structure<br/>
-  ✔ Clear request–response lifecycle<br/>
-  ✔ Scalable and extensible design<br/>
-  ✔ Real-world full-stack workflow
-</p>
-
-<p align="center">
-  These principles ensure the application remains easy to debug,
-  understand, and extend as complexity grows.
+  This separation makes the application easier to understand, debug,
+  and extend as new features are added.
 </p>
 
 <hr/>
 
-<h2 align="center">🛠️ Technology Stack</h2>
+<h2 align="center">🧱 How the Project Was Designed</h2>
 
 <p align="center">
-  The project uses a <b>minimal yet practical stack</b> to focus on fundamentals.
+  The design of <b>oneCart</b> started with identifying
+  <b>real-world application requirements</b>.
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Frontend-Web%20Technologies-blue?style=for-the-badge"/>
-  <img src="https://img.shields.io/badge/Backend-Server%20Side-orange?style=for-the-badge"/>
-  <img src="https://img.shields.io/badge/Version%20Control-Git%20%26%20GitHub-black?style=for-the-badge"/>
+  Instead of writing code immediately, the project was first broken down into:
 </p>
 
 <p align="center">
-  Each layer is intentionally kept independent to support future
-  upgrades such as database integration, authentication, and deployment.
+  ✔ What the user sees (Frontend)<br/>
+  ✔ What happens behind the scenes (Backend)<br/>
+  ✔ How both layers communicate
+</p>
+
+<p align="center">
+  This approach ensures that each part of the application
+  has a <b>single, well-defined responsibility</b>.
+</p>
+
+<hr/>
+
+<h2 align="center">🔁 Frontend–Backend Interaction</h2>
+
+<p align="center">
+  The frontend acts as the <b>entry point</b> for user interaction.
+</p>
+
+<p align="center">
+  When a user performs an action (such as submitting data or requesting information),
+  the frontend:
+</p>
+
+<p align="center">
+  1. Captures the user input<br/>
+  2. Sends a request to the backend<br/>
+  3. Waits for a response<br/>
+  4. Updates the UI based on the result
+</p>
+
+<p align="center">
+  The backend processes this request by:
+</p>
+
+<p align="center">
+  1. Validating incoming data<br/>
+  2. Applying application logic<br/>
+  3. Preparing a response<br/>
+  4. Sending the result back to the frontend
+</p>
+
+<p align="center">
+  This clear request–response lifecycle is a core concept
+  in modern full-stack development.
 </p>
 
 <hr/>
@@ -112,43 +147,61 @@ Full-Stack Web Application
 <h2 align="center">🧠 System Architecture & Flowchart</h2>
 
 <p align="center">
-  The flowchart below illustrates the <b>complete execution flow</b>
-  of the oneCart application.
+  To clearly visualize how the application works internally,
+  a <b>flowchart-based system design</b> was created.
 </p>
 
 <p align="center">
-  It explains how a user request travels from the <b>frontend</b>
-  to the <b>backend</b>, how logic is processed, and how the response
-  is returned to the client.
+  The flowchart represents the <b>complete execution lifecycle</b>
+  of the application — from user action to final response.
 </p>
 
 <p align="center">
-  <img src="flowcharts/onecart-flowchart.png" width="85%" />
+  <a href="https://github.com/gavneet0030/oneCart/tree/main/flowchart" target="_blank">
+    🔗 View Flowchart Folder
+  </a>
 </p>
 
 <p align="center">
-  <i>
-    The flowchart demonstrates initialization, request handling,
-    decision-making, processing, and response generation.
-  </i>
+  The flowchart explains:
+</p>
+
+<p align="center">
+  ✔ Application initialization<br/>
+  ✔ User request handling<br/>
+  ✔ Decision-making logic<br/>
+  ✔ Backend processing steps<br/>
+  ✔ Response generation and UI update
+</p>
+
+<p align="center">
+  This diagram ensures the system is <b>understood conceptually</b>
+  before being extended or optimized.
 </p>
 
 <hr/>
 
-<h2 align="center">🔁 Application Flow Explanation</h2>
+<h2 align="center">🧠 Why the Flowchart Matters</h2>
 
 <p align="center">
-  1. User interacts with the frontend interface<br/>
-  2. Frontend sends a request to the backend<br/>
-  3. Backend processes the request using application logic<br/>
-  4. Data is validated and transformed if required<br/>
-  5. Backend sends a response back to the frontend<br/>
-  6. Frontend updates the UI based on the response
+  The flowchart is not just documentation — it is a
+  <b>design and thinking tool</b>.
 </p>
 
 <p align="center">
-  This flow ensures <b>clear responsibility boundaries</b>
-  and predictable application behavior.
+  It helps in:
+</p>
+
+<p align="center">
+  ✔ Understanding system behavior without reading code<br/>
+  ✔ Debugging logical issues<br/>
+  ✔ Explaining the project during interviews<br/>
+  ✔ Planning future enhancements
+</p>
+
+<p align="center">
+  This reflects a <b>software engineering mindset</b>
+  rather than a trial-and-error coding approach.
 </p>
 
 <hr/>
@@ -163,8 +216,6 @@ Full-Stack Web Application
   <code>git clone https://github.com/gavneet0030/oneCart.git</code>
 </p>
 
-<br/>
-
 <p align="center">
   Navigate into the project directory:
 </p>
@@ -173,15 +224,14 @@ Full-Stack Web Application
   <code>cd oneCart</code>
 </p>
 
-<br/>
-
 <p align="center">
-  Run the frontend and backend independently
-  using the instructions provided inside each folder.
+  The frontend and backend are run separately,
+  following the instructions inside their respective folders.
 </p>
 
 <p align="center">
-  This design allows isolated testing and easier debugging.
+  This separation allows independent development and testing
+  of both layers.
 </p>
 
 <hr/>
@@ -189,15 +239,15 @@ Full-Stack Web Application
 <h2 align="center">📈 Learning Outcomes</h2>
 
 <p align="center">
-  Through this project, the following skills are strengthened:
+  By building <b>oneCart</b>, the following skills were developed:
 </p>
 
 <p align="center">
-  ✔ Full-stack application architecture<br/>
-  ✔ Request–response lifecycle understanding<br/>
-  ✔ System-level thinking<br/>
-  ✔ Real-world project structuring<br/>
-  ✔ Scalable software design
+  ✔ End-to-end application thinking<br/>
+  ✔ Frontend–backend communication concepts<br/>
+  ✔ Layered system architecture<br/>
+  ✔ Flowchart-driven system design<br/>
+  ✔ Real-world project structuring
 </p>
 
 <hr/>
@@ -209,15 +259,18 @@ Full-Stack Web Application
 </p>
 
 <p align="center">
-  • Database integration<br/>
+  • Database integration for persistent data<br/>
   • Authentication and authorization<br/>
-  • API optimization<br/>
-  • Cloud deployment<br/>
+  • API optimization and validation<br/>
+  • Deployment on cloud platforms<br/>
   • CI/CD pipeline integration
 </p>
 
 <hr/>
 
 <p align="center">
-  💡 <i>Built to understand and apply real-world full-stack software engineering principles.</i>
+  💡 <i>
+    Built to deeply understand how real-world full-stack applications
+    are designed, implemented, and evolved.
+  </i>
 </p>
