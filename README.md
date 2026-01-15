@@ -186,44 +186,8 @@ Full-Stack Web Application
 
 <hr/>
 
-<h2 align="center">📈 Learning Outcomes</h2>
 
-<p align="center">
-  By building oneCart, the following skills were developed:
-</p>
 
-<p align="center">
-  ✔ Full-stack application structuring<br/>
-  ✔ Frontend–backend communication<br/>
-  ✔ System design and flow visualization<br/>
-  ✔ Modular and scalable architecture<br/>
-  ✔ Real-world development workflow
-</p>
-
-<hr/>
-
-<h2 align="center">🔮 Future Enhancements</h2>
-
-<p align="center">
-  Planned improvements include:
-</p>
-
-<p align="center">
-  • Database integration<br/>
-  • Authentication and authorization<br/>
-  • API optimization and validation<br/>
-  • Cloud deployment<br/>
-  • CI/CD pipeline integration
-</p>
-
-<hr/>
-
-<p align="center">
-  💡 <i>
-    oneCart was built to deeply understand how real-world applications
-    are designed, implemented, and scaled.
-  </i>
-</p>
 
 <h2 align="center">☁️ DevOps & AWS Deployment Strategy</h2>
 
