@@ -117,6 +117,62 @@ Full-Stack Web Application
 </p>
 
 <hr/>
+<h2 align="center">🛠️ Technology Stack</h2>
+
+<p align="center">
+  The <b>oneCart</b> application is developed using modern web technologies
+  with a clear separation between frontend and backend responsibilities.
+</p>
+
+<p align="center">
+  <b>Core Technologies Used:</b>
+</p>
+
+<p align="center">
+  <!-- Frontend stack -->
+  <img src="https://img.shields.io/badge/HTML-5-E34F26?style=for-the-badge&logo=html5&logoColor=white"/>
+  <img src="https://img.shields.io/badge/CSS-3-1572B6?style=for-the-badge&logo=css3&logoColor=white"/>
+  <img src="https://img.shields.io/badge/JavaScript-ES6-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black"/>
+</p>
+
+<p align="center">
+  • <b>HTML</b> — Used to define the structure of the web pages<br/>
+  • <b>CSS</b> — Used for layout, styling, and responsive design<br/>
+  • <b>JavaScript</b> — Used for interactivity, frontend logic, and API communication
+</p>
+
+<p align="center">
+  <b>Backend Technologies:</b>
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white"/>
+</p>
+
+<p align="center">
+  • <b>Node.js</b> — JavaScript runtime for backend processing<br/>
+  • <b>Express.js</b> — Lightweight web framework for building REST APIs
+</p>
+
+<p align="center">
+  <b>Supporting Tools & Practices:</b>
+</p>
+
+<p align="center">
+  • <b>Git & GitHub</b> — Version control and collaboration<br/>
+  • <b>ESLint / Prettier</b> — Code quality and formatting<br/>
+  • <b>npm</b> — Package management<br/>
+  • <b>JSON</b> — Data interchange format between frontend and backend
+</p>
+
+<p align="center">
+  <b>Note:</b> The repository language breakdown shows JavaScript as the
+  primary technology used, reflecting a modern full-stack JavaScript
+  application pattern. :contentReference[oaicite:1]{index=1}
+</p>
+
+<hr/>
 
 <h2 align="center">🧠 System Architecture & Flowchart</h2>
 
